@@ -1,0 +1,26 @@
+
+.step {
+    border: 3px solid;
+}
+
+.equip{
+    margin-top: 10px;
+}
+
+.Ingre {
+    margin-top: 10px;
+    height: 25px;
+}
+
+.add {
+    background-color: white;
+    
+    margin-left: 5px;
+    height: 20px;
+    width: 30px;
+}
+
+.add:hover {
+    background-color: gray;
+    color: aliceblue;
+}

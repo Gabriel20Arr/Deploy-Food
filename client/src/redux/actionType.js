@@ -1,0 +1,10 @@
+export const GET_RECIPES = "GET_RECIPES";
+export const RECIPE_NAME = "RECIPE_NAME";
+export const RECIPE_DETAIL = "RECIPE_DETAIL";
+export const POST_RECIPE = "POST_RECIPE";
+export const GET_DIETS = "GET_DIETS";
+export const CLEAN_DETAIL = "CLEAN_DETAIL";
+export const FILTER_DIETS = "FILTER_DIETS";
+export const FILTER_ORIGEN = "FILTER_ORIGEN";
+export const ORDER_A_Z = "ORDER_A_Z";
+export const ORDER_SCORE = "ORDER_SCORE";

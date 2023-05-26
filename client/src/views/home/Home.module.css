@@ -1,0 +1,70 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.conteiner_filter{
+    margin: 5px;
+    padding: 0px 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #ffa600;
+
+    height: 2.5em;
+    width: fit-content;
+
+    font-weight: bold;
+    font-size: small;
+    border-radius: 4px;
+}
+
+
+
+.Brest{
+    background: #fff;
+    display: flex;
+
+    margin: 10px;
+    padding: 7px 14px 7px 14px;
+    
+    border-radius: 30px;
+    border:  2px solid #cad3dc;
+    
+    font-weight: bold;
+    font-size: medium;
+}
+
+.Brest:hover{
+    background-color: #cad3dc;
+}
+
+.count_B_rest{
+    display: flex;
+    justify-content: space-around;
+    font: bold;
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 13px;
+    left: 70%;
+    
+    background-color:  #ffa600;
+    width: 30%;
+    height: 3em;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+

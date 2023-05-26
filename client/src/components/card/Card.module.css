@@ -1,0 +1,99 @@
+.cont{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5px;
+    height: 32em;
+    width: 16em;
+
+    overflow: hidden;
+
+    background: linear-gradient(to bottom, #f6c176dd, #ffa600, #ffa6009d,#f6c176dd, 
+    #ffa600, #ffa600, #f6c176dd, #ffa600,
+    #ffa600);
+
+    border: solid 3px black;
+    border-radius: 15px;
+    
+    -moz-osx-fond-smoothing: grayscale;
+
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.cont:hover{
+    transform: scale(1.05);
+}
+
+.name{
+   background-color: aliceblue; 
+    
+   display: flex;
+   justify-content: center;
+
+   border: solid 2px black;
+   border-radius: 10px;
+    
+   max-width: 10em;
+   max-height: fit-content; 
+   font-size: large;
+   
+   padding: 5px 5px;
+   margin-bottom: 10px;
+}
+
+
+.img{
+    position: absolute;
+    
+    top: 25%;
+    left: 2%;
+    
+    height: 200px;
+    width: 195px;
+    border-radius: 10%;
+    border: solid 2px black;
+
+}
+
+.score{
+    position: absolute;
+    top: 70%;
+
+    
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 0;
+    padding: 2px;
+
+    height: 2em;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: aliceblue;
+}
+
+.diet{
+    background-color: aliceblue; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 3%;
+    left: 7%;
+
+    border: solid 2px black;
+    border-radius: 10px;
+    
+    margin-bottom: 4px;
+    padding: 6px;
+    
+    width: 160px;
+    max-height: 8em; 
+}

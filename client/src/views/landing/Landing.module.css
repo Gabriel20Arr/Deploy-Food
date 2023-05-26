@@ -1,0 +1,36 @@
+.conteiner{
+    background: fixed center center no-repeat;
+    background-image: url("../../utils/background-of-foods.jpg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 15em;
+}
+
+.cont{
+    background-color: white;
+    height: 8em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.cont:hover{
+    background-color: gray;
+}
+
+.buttonH{
+    border: none;
+    background: none;
+    
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif ;
+}

@@ -1,0 +1,204 @@
+
+.cont{
+    background-image: url(../../utils/background-of-detail2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250vh;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+
+}
+
+.bCount {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    width: 6em;
+    height: 3em;
+    
+    border-radius: 15ex;
+}
+
+.b:hover {
+    background-color: gray;
+    color: aliceblue;
+}
+
+ .cont2{
+    margin: 15px;    
+    border-radius: 2px;
+    padding: 10px;
+  
+    height: 41em;
+} 
+
+.titleC {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    min-height: 2em;
+
+    padding: 10px;
+}
+
+.imageC {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    border: 5px solid;
+    border-radius: 10px;
+    
+    -moz-osx-fond-smoothing: grayscale;
+    
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.image:hover {
+    transform: scale(1.09);
+}
+
+.summary1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    border-bottom: 2px solid;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 5px;
+    
+    background-color: darkgray;
+
+    -moz-osx-fond-smoothing: grayscale;
+    
+    transform: translateZ(0);
+    transition: transform 1.5s ease-out;
+
+}
+
+.summary:hover {
+    transform: scale(1.04);
+}
+
+
+.summary {
+    background-color: white;
+    
+    border: 1px solid;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    padding-top: 0;
+
+    min-height: 15em;
+}
+
+.score {
+    background-color: white;
+
+    border: 1px solid;
+    border-radius: 10px;
+
+    width: 20em;
+    padding: 10px;
+}
+
+.stepsTitle {
+    border: 1px solid;
+    border-radius: 5px;
+
+    background-color: darkgray;
+
+    padding: 5px;
+    margin: 10px;
+}
+
+.steps {
+    background-color: white;
+        
+    border: 1px solid;
+    
+}
+
+.titleSteps {
+    background-color: rgb(203, 201, 201);
+        
+    border: 1px solid;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    padding: 2px;
+
+    overflow: hidden;
+}
+
+.conutSteps {
+    margin-left: 70px;
+    margin-right: 70px;
+
+    padding: 10px;
+}
+
+.dietsTypes {
+    background-color: darkgray;
+    
+    border: 1px solid;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+.diets {
+    background-color: white;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border: 1px solid;
+}

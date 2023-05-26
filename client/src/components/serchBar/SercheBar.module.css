@@ -1,0 +1,50 @@
+
+.Boton{
+    background: #fff;
+    display: flex;
+
+    padding: 7px 14px 7px 14px;
+    border-radius: 30px;
+    border:  2px solid #cad3dc;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.Boton:hover {
+    background-color: #cad3dc;
+}
+
+input{
+ font: inherit;
+}
+
+section{
+    display: flex;
+    margin-top: 3px;
+}
+
+
+.form > .autoComplete{
+    display: flex;
+    background: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    border:  2px solid #cad3dc;
+}
+
+.form input{
+    border: none;
+    background: transparent;
+    padding-left: 20px;
+    background-image: url(../../utils/search-svgrepo-com.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 0px;
+    transition: all 1s;
+}
+
+.form input:focus{
+    outline: none;
+    width: 150px;
+}
