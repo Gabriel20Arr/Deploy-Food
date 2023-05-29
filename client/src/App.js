@@ -7,7 +7,8 @@ import Home from "./views/home/Home";
 import Details from "./views/details/Details";
 import Form from "./views/Form/Form";
 import axios from "axios";
-axios.defaults.baseURL = 'https://deploy-food-production-d942.up.railway.app'
+axios.defaults.baseURL = 'http://localhost:3001'
+// axios.defaults.baseURL = 'https://deploy-food-production-d942.up.railway.app'
 
 function App() {
   const location = useLocation();
