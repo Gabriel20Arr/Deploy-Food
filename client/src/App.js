@@ -6,6 +6,8 @@ import Landing from "./views/landing/Landing";
 import Home from "./views/home/Home";
 import Details from "./views/details/Details";
 import Form from "./views/Form/Form";
+import axios from "axios";
+axios.defaults.baseURL = 'http://localhost:3001'
 
 function App() {
   const location = useLocation();

@@ -15,7 +15,7 @@ import {
 export function getRecipes() {
   return async function (dispatch) {
     try {
-      const response = (await axios.get("http://localhost:3001/recipes")).data;
+      const response = (await axios.get("/recipes")).data;
 
       dispatch({
         type: GET_RECIPES,
@@ -32,7 +32,7 @@ export function getRecipesName(name) {
   return async function (dispatch) {
     try {
       const res = (
-        await axios.get(`http://localhost:3001/recipes?title=${name}`)
+        await axios.get(`/recipes?title=${name}`)
       ).data;
       
       return dispatch({
@@ -48,7 +48,7 @@ export function getRecipesName(name) {
 export function getRecipesDetail(id) {
   return async function (dispatch) {
     try {
-      const res = (await axios.get(`http://localhost:3001/recipes/${id}`)).data;
+      const res = (await axios.get(`/recipes/${id}`)).data;
       return dispatch({
         type: RECIPE_DETAIL,
         payload: res,
@@ -65,27 +65,30 @@ export function cleanDetail() {
   };
 }
 
+
 export function postRecipesForm(newRecipe) {
   return async function (dispatch) {
     try {
-      const res = (await axios.post(`http://localhost:3001/recipes`, newRecipe))
+      const res = (await axios.post(`/recipes`, newRecipe))
         .data;
-      // alert(res.msg)
+        alert('Recipe created successfully!');
       return dispatch({
         type: POST_RECIPE,
         payload: res,
       });
     } catch (error) {
+      alert('Error creating recipe. Please try again.');
       console.log(error);
     }
   };
 }
 
+
 export function getDiets() {
   return async function (dispatch) {
     try {
-      const res = (await axios(`http://localhost:3001/diets`)).data;
-      // alert(res.msg)
+      const res = (await axios(`/diets`)).data;
+      
       return dispatch({
         type: GET_DIETS,
         payload: res,
